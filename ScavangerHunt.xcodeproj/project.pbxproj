@@ -13,6 +13,9 @@
 		5F84B6851A0C6FB000A26E7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F84B6841A0C6FB000A26E7A /* Images.xcassets */; };
 		5F84B6881A0C6FB000A26E7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F84B6861A0C6FB000A26E7A /* LaunchScreen.xib */; };
 		5F84B6941A0C6FB000A26E7A /* ScavangerHuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F84B6931A0C6FB000A26E7A /* ScavangerHuntTests.swift */; };
+		5F84B69E1A0C876300A26E7A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F84B69D1A0C876300A26E7A /* ListViewController.swift */; };
+		5F84B6A01A0CA9BD00A26E7A /* ScavengerHuntItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F84B69F1A0CA9BD00A26E7A /* ScavengerHuntItem.swift */; };
+		5F84B6A21A0CBA2A00A26E7A /* ItemsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F84B6A11A0CBA2A00A26E7A /* ItemsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		5F84B68D1A0C6FB000A26E7A /* ScavangerHuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScavangerHuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F84B6921A0C6FB000A26E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F84B6931A0C6FB000A26E7A /* ScavangerHuntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScavangerHuntTests.swift; sourceTree = "<group>"; };
+		5F84B69D1A0C876300A26E7A /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		5F84B69F1A0CA9BD00A26E7A /* ScavengerHuntItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScavengerHuntItem.swift; sourceTree = "<group>"; };
+		5F84B6A11A0CBA2A00A26E7A /* ItemsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				5F84B67D1A0C6FB000A26E7A /* AppDelegate.swift */,
+				5F84B69D1A0C876300A26E7A /* ListViewController.swift */,
+				5F84B6A11A0CBA2A00A26E7A /* ItemsManager.swift */,
 				5F84B67F1A0C6FB000A26E7A /* ViewController.swift */,
 				5F84B6811A0C6FB000A26E7A /* Main.storyboard */,
+				5F84B69F1A0CA9BD00A26E7A /* ScavengerHuntItem.swift */,
 				5F84B6841A0C6FB000A26E7A /* Images.xcassets */,
 				5F84B6861A0C6FB000A26E7A /* LaunchScreen.xib */,
 				5F84B67B1A0C6FB000A26E7A /* Supporting Files */,
@@ -214,6 +223,9 @@
 			files = (
 				5F84B6801A0C6FB000A26E7A /* ViewController.swift in Sources */,
 				5F84B67E1A0C6FB000A26E7A /* AppDelegate.swift in Sources */,
+				5F84B6A01A0CA9BD00A26E7A /* ScavengerHuntItem.swift in Sources */,
+				5F84B69E1A0C876300A26E7A /* ListViewController.swift in Sources */,
+				5F84B6A21A0CBA2A00A26E7A /* ItemsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

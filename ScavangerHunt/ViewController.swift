@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var createdItem: ScavengerHuntItem?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +22,23 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    @IBOutlet weak var textField: UITextField!
+    
 
+    @IBAction func Cancel(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "DoneItem" {
+        
+        if let name = textField.text {
+            if !name.isEmpty {
+                createdItem = ScavengerHuntItem(name: name)
+            }
+        }
+        }
+    }
 }
 
